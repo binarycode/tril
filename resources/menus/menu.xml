@@ -1,0 +1,7 @@
+<menus>
+  <menu id="Main">
+    <menu-item id="scale" label="@Strings.MenuScale" />
+    <menu-item id="points" label="@Strings.MenuPoints" />
+    <menu-item id="result" label="@Strings.MenuResult" />
+  </menu>
+</menus>

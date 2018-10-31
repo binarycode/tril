@@ -1,0 +1,13 @@
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="0">
+  <iq:application entry="TrilApp" id="c828c50e795642278df563bcef27121c" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="1.2.0" name="@Strings.AppName" type="watch-app" version="0.1.0">
+    <iq:products>
+      <iq:product id="oregon7xx"/>
+    </iq:products>
+    <iq:permissions>
+      <iq:uses-permission id="PersistedContent"/>
+    </iq:permissions>
+    <iq:languages>
+      <iq:language>eng</iq:language>
+    </iq:languages>
+  </iq:application>
+</iq:manifest>

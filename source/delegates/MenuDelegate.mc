@@ -8,7 +8,10 @@ class MenuDelegate extends Ui.MenuInputDelegate {
   function onMenuItem(item) {
     if (item == :scale) {
       Ui.pushView(
-        new ScaleView(),
+        new Ui.NumberPicker(
+          Ui.NUMBER_PICKER_DISTANCE,
+          1.0
+        ),
         new ScaleDelegate(),
         Ui.SLIDE_UP
       );

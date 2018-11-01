@@ -1,12 +1,12 @@
+using Toybox.System;
 using Toybox.WatchUi as Ui;
 
-class ScaleDelegate extends Ui.InputDelegate {
+class ScaleDelegate extends Ui.NumberPickerDelegate {
   function initialize() {
-    InputDelegate.initialize();
+    NumberPickerDelegate.initialize();
   }
-
-  function onTap(clickEvent) {
-    Ui.popView(Ui.SLIDE_IMMEDIATE);
-    return true; // TODO do we need this?
+	
+  function onNumberPicked(value) {
+    System.println(value);
   }
 }
